@@ -1,0 +1,14 @@
+/* Add your css here */
+
+.avatar {
+  width: 300px;
+}
+
+.hello {
+  background-image:url("./images/wood.jpeg");
+  background-position: center;
+}
+
+.there {
+  color: rgb(0, 0, 0);
+}

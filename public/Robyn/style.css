@@ -1,0 +1,67 @@
+/* Add your css here */
+
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Trispace:wght@100&display=swap');
+
+body{
+  background-color: brown;  
+  color: white;
+  font-family: 'Trispace', sans-serif;
+}
+
+main{
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Archivo', sans-serif;
+}
+
+
+.avatar {
+  width: 20%;
+}
+
+.avatar:hover{
+  opacity: 30%;
+}
+
+.food{
+  width: 25%;
+}
+
+.food:hover{
+  opacity: 25%;
+}
+
+.spotify{
+  width: 30%;
+}
+
+.spotify:hover{
+  opacity: 30%;
+}
+
+.type-writer{
+  overflow: hidden;
+  border-right: .1em solid white;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+.type-writer{
+  animation: typewriter 4s steps(20) 1s 1 normal both,
+             blinkTextCursor 100ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0%;}
+  to{width: 20%;}
+}
+
+
+article > ul > li {
+  list-style: none;
+  line-height: 2rem;
+}

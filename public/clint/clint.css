@@ -1,0 +1,43 @@
+/* Add your css here */
+html, body {
+  background-color:blanchedalmond;
+  
+
+   }
+
+.matrix {
+  width: 170px;
+}
+em {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+}
+h1 {
+  color: yellow;
+}
+p {
+  color:blue;
+  font-style: oblique;
+}
+.avatar {
+  width: 300px;
+  border-style: dotted;
+  
+}
+.wave {
+  width: 101px;
+  position: relative;
+}
+.darts {
+  width: 150px;
+}
+ol {
+  color: purple;
+}
+li {
+  font-family: fantasy;
+  color: brown;
+}
+.dog {
+  width: 150px;
+}
